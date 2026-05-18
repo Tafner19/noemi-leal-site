@@ -119,7 +119,7 @@ export default function NoemiLealSite() {
                   </div>
                 </div>
                 <a 
-                  href="https://open.spotify.com/intl-pt/track/2vJzeuKQ3tFKmSMkdbALKp?si=fd4aece855a148ef&nd=1&dlsi=00cf1671defb4802"
+                  href="https://open.spotify.com/intl-pt/track/2vJzeuKQ3tFKmSMkdbALKp?si=bacef0a4db45431c&nd=1&dlsi=b5adfa1fd66645da"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center text-black transition-all duration-300 transform hover:scale-110 shadow-lg shadow-pink-500/20"
