@@ -104,7 +104,7 @@ export default function NoemiLealSite() {
               </div>
             </div>
 
-            {/* Preview Track */}
+            {/* Preview Track (LINK DA MÚSICA CORRIGIDO AQUI) */}
             <div className="w-full max-w-sm bg-[#18181b] rounded-xl p-4 flex flex-col gap-4 border border-zinc-800 relative overflow-hidden group shadow-lg">
               <div className="flex items-center justify-between z-10">
                 <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ export default function NoemiLealSite() {
                   </div>
                 </div>
                 <a 
-                  href="https://open.spotify.com/search/noemi%20leal9"
+                  href="https://open.spotify.com/intl-pt/track/2vJzeuKQ3tFKmSMkdbALKp?si=005712e1493f42dc0&nd=1&dlsi=9c02a3787ef4442c"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center text-black transition-all duration-300 transform hover:scale-110 shadow-lg shadow-pink-500/20"
@@ -190,9 +190,9 @@ export default function NoemiLealSite() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-6">
-            {/* LINK DO PERFIL DO SPOTIFY ATUALIZADO AQUI */}
+            {/* LINK DO PERFIL DA ARTISTA CORRIGIDO AQUI */}
             <a 
-              href="https://open.spotify.com/intl-pt/track/2vJzeuKQ3tFKmSMkdbALKp?si=005712e1493f42dc0" 
+              href="https://open.spotify.com/intl-pt/artist/15elHVyIMS1aobjNNJXcvK?si=nNCCx9M8QXGIutqoGQhpKg&nd=1&dlsi=36799b06ad5c4275" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-[#141416] p-6 rounded-2xl border border-zinc-800 flex flex-col items-center justify-center hover:border-emerald-500 transition-all text-center group shadow-xl"
@@ -326,9 +326,9 @@ export default function NoemiLealSite() {
             >
               WhatsApp
             </a>
-            {/* LINK DO PERFIL DO SPOTIFY ATUALIZADO NO RODAPÉ TAMBÉM */}
+            {/* LINK DO PERFIL DA ARTISTA NO RODAPÉ TAMBÉM */}
             <a 
-              href="https://open.spotify.com/intl-pt/track/2vJzeuKQ3tFKmSMkdbALKp?si=005712e1493f42dc0" 
+              href="https://open.spotify.com/intl-pt/artist/15elHVyIMS1aobjNNJXcvK?si=nNCCx9M8QXGIutqoGQhpKg&nd=1&dlsi=36799b06ad5c4275" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-pink-500 transition-colors"
