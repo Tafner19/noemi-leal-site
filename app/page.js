@@ -119,7 +119,7 @@ export default function NoemiLealSite() {
                   </div>
                 </div>
                 <a 
-                  href="https://open.spotify.com/intl-pt/track/2vJzeuKQ3tFKmSMkdbALKp?si=bacef0a4db45431c&nd=1&dlsi=b5adfa1fd66645da"
+                  href="https://open.spotify.com/track/47T4pY9fT47VwG8RzZ8RzZ"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center text-black transition-all duration-300 transform hover:scale-110 shadow-lg shadow-pink-500/20"
@@ -142,37 +142,41 @@ export default function NoemiLealSite() {
 
       {/* SOBRE MIM */}
       <section id="sobre" className="py-20 border-t border-zinc-900 bg-[#0e0e0e]">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-1 gap-12 items-center text-center">
-          <div className="max-w-3xl mx-auto">
-            <span className="text-pink-500 text-sm font-semibold tracking-wider block mb-2">// BIOGRAFIA</span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 mx-auto">Sobre mim</h2>
-            <p className="text-zinc-400 leading-relaxed mb-4">
+        {/* Retornado para grid md:grid-cols-2 (Duas Colunas Lado a Lado) */}
+        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <span className="text-pink-500 text-sm font-semibold tracking-wider block mb-2 text-center">// BIOGRAFIA</span>
+            {/* Título Centralizado */}
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Sobre mim</h2>
+            <p className="text-zinc-400 leading-relaxed mb-4 text-justify">
               Desde cedo, a música sempre foi minha maior paixão. Com mais de 15 anos de experiência na música, já produzi diversas faixas que alcançaram milhões de streams, ajudando artistas a desenvolverem sua identidade sonora.
             </p>
-            <p className="text-zinc-400 leading-relaxed mb-6">
+            <p className="text-zinc-400 leading-relaxed mb-6 text-justify">
               Com formação em <strong>Guitarra e Tecnologia, Teoria Musical e Produção</strong>, tenho um olhar detalhista para cada etapa do processo musical, desde a composição até a mixagem final.
             </p>
-            <div className="border-t border-zinc-800 pt-6 flex flex-col items-center">
-              <h4 className="text-white font-bold mb-3">Habilidades e Especializações:</h4>
-              <ul className="space-y-2 text-zinc-400 text-sm inline-block text-left">
+            <div className="border-t border-zinc-800 pt-6">
+              {/* Subtítulo Habilidades Centralizado */}
+              <h4 className="text-white font-bold mb-3 text-center">Habilidades e Especializações:</h4>
+              <ul className="space-y-2 text-zinc-400 text-sm">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-pink-500 flex-shrink-0" /> <span><strong>Softwares de Production:</strong> Ableton Live e Reaper.</span>
+                  <CheckCircle className="w-4 h-4 text-pink-500 flex-shrink-0" /> <span><strong>Softwares de Produção:</strong> Ableton Live e Reaper.</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-pink-500 flex-shrink-0" /> <span><strong>Especializações:</strong> Produção musical, mixagem e masterização, composição, sound design.</span>
+                  <CheckCircle className="w-4 h-4 text-pink-500 flex-shrink-0" /> <span><strong>Especializações:</strong> Produção musical, mixagem e masterização, composition, sound design.</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className="bg-zinc-900/40 border border-zinc-800 p-8 rounded-2xl max-w-3xl mx-auto w-full">
-            <h3 className="text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-400">
+          <div className="bg-zinc-900/40 border border-zinc-800 p-8 rounded-2xl w-full">
+            {/* Subtítulo Destaque Centralizado */}
+            <h3 className="text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-400 text-center">
               O que me destaca?
             </h3>
-            <p className="text-zinc-400 leading-relaxed text-sm mb-6">
+            <p className="text-zinc-400 leading-relaxed text-sm mb-6 text-justify">
               Um dos meus maiores diferenciais é a capacidade de transitar por diversos styles musicais com qualidade. Como <strong>multi-instrumentista</strong>, tenho um olhar único sobre cada faixa, trazendo mais autenticidade para as músicas que produzo. Meu objetivo é transformar ideias em músicas marcantes, garantindo que cada projeto tenha uma identidade sonora única e profissional.
             </p>
-            <div className="grid grid-cols-3 gap-4 text-center text-xs font-semibold text-zinc-500 max-w-md mx-auto">
+            <div className="grid grid-cols-3 gap-4 text-center text-xs font-semibold text-zinc-500">
               <div className="p-3 bg-zinc-950 rounded-lg border border-zinc-800">ABLETON LIVE</div>
               <div className="p-3 bg-zinc-950 rounded-lg border border-zinc-800">WAVES</div>
               <div className="p-3 bg-zinc-950 rounded-lg border border-zinc-800">REAPER</div>
@@ -185,13 +189,14 @@ export default function NoemiLealSite() {
       <section id="portfolio" className="py-20 border-t border-zinc-900">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="mb-12">
+            {/* Títulos Centralizados */}
             <h2 className="text-3xl font-bold mb-2">Trabalhos em Destaque</h2>
             <p className="text-zinc-400">Explore as produções que definem a assinatura artística de Noemi Leal.</p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6">
             <a 
-              href="https://open.spotify.com/search/noemi%20leal" 
+              href="https://open.spotify.com/artist/7M6rX8FhT47VwG8RzZ8RzZ" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-[#141416] p-6 rounded-2xl border border-zinc-800 flex flex-col items-center justify-center hover:border-emerald-500 transition-all text-center group shadow-xl"
@@ -326,7 +331,7 @@ export default function NoemiLealSite() {
               WhatsApp
             </a>
             <a 
-              href="https://open.spotify.com/search/noemi%20leal" 
+              href="https://open.spotify.com/artist/7M6rX8FhT47VwG8RzZ8RzZ" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="hover:text-pink-500 transition-colors"
